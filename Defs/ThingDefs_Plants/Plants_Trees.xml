@@ -1,0 +1,280 @@
+<Defs>
+
+	<ThingDef ParentName="BT_TreeBase">
+		<defName>BT_TreeBirch</defName>
+		<label>green birch tree</label>
+		<description>A northern tree known for its thin, paper-like bark.</description>
+		<graphicData>
+			<texPath>BT/Tree/TreeBirch</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.15, 0.3, 0.1)</volume>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<Beauty>3</Beauty>
+		</statBases>
+		<ingestible>
+			<nutrition>1</nutrition>
+		</ingestible>
+		<plant>
+			<sowTags>
+				<li>/Soil</li>
+				<li>Clump</li>
+			</sowTags>
+			<visualSizeRange>
+				<min>2.0</min>
+				<max>3.5</max>
+			</visualSizeRange>
+			<growDays>20</growDays>
+			<harvestedThingDef>WoodLog_Birch</harvestedThingDef>
+			<harvestWork>700</harvestWork>
+			<harvestYield>30</harvestYield>
+		</plant>
+	</ThingDef>
+  
+	<ThingDef ParentName="BT_TreeBase">
+		<defName>BT_TreeOBirch</defName>
+		<label>orange birch tree</label>
+		<description>A northern tree known for its thin, paper-like bark.</description>
+		<graphicData>
+			<texPath>BT/Tree/TreeOBirch</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.15, 0.3, 0.1)</volume>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<Beauty>3</Beauty>
+		</statBases>
+		<ingestible>
+			<nutrition>1</nutrition>
+		</ingestible>
+		<plant>
+			<sowTags>
+				<li>/Soil</li>
+				<li>Clump</li>
+			</sowTags>
+			<visualSizeRange>
+				<min>2.0</min>
+				<max>3.5</max>
+			</visualSizeRange>
+			<growDays>20</growDays>
+			<harvestedThingDef>WoodLog_Birch</harvestedThingDef>
+			<harvestWork>700</harvestWork>
+			<harvestYield>30</harvestYield>
+		</plant>
+	</ThingDef>
+  
+	<ThingDef ParentName="BT_TreeBase">
+		<defName>BT_TreeRBirch</defName>
+		<label>red birch tree</label>
+		<description>A northern tree known for its thin, paper-like bark.</description>
+		<graphicData>
+			<texPath>BT/Tree/TreeRBirch</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.15, 0.3, 0.1)</volume>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<Beauty>3</Beauty>
+		</statBases>
+		<ingestible>
+			<nutrition>1</nutrition>
+		</ingestible>
+		<plant>
+			<sowTags>
+				<li>/Soil</li>
+				<li>Clump</li>
+			</sowTags>
+			<visualSizeRange>
+				<min>2.0</min>
+				<max>3.5</max>
+			</visualSizeRange>
+			<growDays>20</growDays>
+			<harvestedThingDef>WoodLog_Birch</harvestedThingDef>
+			<harvestWork>700</harvestWork>
+			<harvestYield>30</harvestYield>
+		</plant>
+	</ThingDef>
+
+	<ThingDef ParentName="BT_TreeBase">
+		<defName>BT_TreeCecropia</defName>
+		<label>cecropia tree</label>
+		<description>One of the most common rainforest trees. Grows very fast, but yields little usable wood.</description>
+		<graphicData>
+			<texPath>BT/Tree/TreeCecropia</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<statBases>
+			<Beauty>2</Beauty>
+		</statBases>
+		<plant>
+			<sowTags>
+				<li>/Tropic</li>
+				<li>Clump</li>
+			</sowTags>
+			<growDays>14</growDays>
+			<harvestedThingDef>WoodLog_Cecropia</harvestedThingDef>
+			<harvestWork>550</harvestWork>
+			<harvestYield>20</harvestYield>
+			<visualSizeRange>
+				<min>3.75</min>
+				<max>4.25</max>
+			</visualSizeRange>
+		</plant>
+		<ingestible>
+			<nutrition>1.20</nutrition>
+		</ingestible>
+	</ThingDef>	
+	
+	<ThingDef ParentName="BT_TreeBase">
+		<defName>BT_TreeOak</defName>
+		<label>oak tree</label>
+		<description>A strong hardwood tree. Slow-going, but its wood is very strong.</description>
+		<graphicData>
+			<texPath>BT/Tree/TreeOak</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<statBases>
+			<Beauty>5</Beauty>
+		</statBases>
+		<plant>
+			<sowTags>
+				<li>/Soil</li>
+				<li>Clump</li>
+			</sowTags>
+			<visualSizeRange>
+				<min>2.0</min>
+				<max>3.0</max>
+			</visualSizeRange>
+			<growDays>30</growDays>
+			<leaflessGraphicPath>Things/Plant/TreeOak_Leafless</leaflessGraphicPath>
+			<harvestedThingDef>WoodLog_Oak</harvestedThingDef>
+			<harvestWork>1000</harvestWork>
+			<harvestYield>50</harvestYield>
+		</plant>
+	</ThingDef>
+
+	<ThingDef ParentName="BT_TreeBase">
+		<defName>BT_TreePine</defName>
+		<label>pine tree</label>
+		<description>A large conifer.</description>
+		<graphicData>
+			<texPath>BT/Tree/TreePine</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.2, 0.3, 0.2)</volume>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<Beauty>5</Beauty>
+		</statBases>
+		<ingestible>
+			<nutrition>1</nutrition>
+		</ingestible>
+		<plant>
+			<sowTags>
+				<li>/Soil</li>
+				<li>Clump</li>
+			</sowTags>
+			<growDays>20</growDays>
+			<visualSizeRange>
+				<min>2.5</min>
+				<max>3.0</max>
+			</visualSizeRange>
+			<harvestedThingDef>WoodLog_Pine</harvestedThingDef>
+			<harvestWork>700</harvestWork>
+			<harvestYield>30</harvestYield>
+		</plant>
+	</ThingDef>	
+	
+	<ThingDef ParentName="BT_TreeBase">
+		<defName>BT_TreePoplar</defName>
+		<label>poplar tree</label>
+		<description>A softwood tree. Grows fast, but yield little useful wood.</description>
+		<graphicData>
+			<texPath>BT/Tree/TreePoplar</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<statBases>
+			<Beauty>3</Beauty>
+		</statBases>
+		<ingestible>
+			<nutrition>0.75</nutrition>
+		</ingestible>
+		<plant>
+			<sowTags>
+				<li>/Soil</li>
+				<li>Clump</li>
+			</sowTags>
+			<visualSizeRange>
+				<min>2.0</min>
+				<max>3.25</max>
+			</visualSizeRange>
+			<growDays>15.05</growDays>
+			<harvestedThingDef>WoodLog_Poplar</harvestedThingDef>
+			<harvestWork>650</harvestWork>
+			<harvestYield>30</harvestYield>
+		</plant>
+	</ThingDef>	
+	
+	<ThingDef ParentName="BT_TreeBase">
+		<defName>BT_TreeTeak</defName>
+		<label>teak tree</label>
+		<description>A very strong hardwood tree, used in ancient times to build sailing ships.</description>
+		<graphicData>
+			<texPath>BT/Tree/TreeTeak</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.1, 0.1, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<Beauty>5</Beauty>
+		</statBases>
+		<plant>
+			<sowTags>
+				<li>/Water</li>
+			</sowTags>
+			<growDays>32.5</growDays>
+			<leaflessGraphicPath>Things/Plant/TreeOak_Leafless</leaflessGraphicPath>
+			<harvestedThingDef>WoodLog_Teak</harvestedThingDef>
+			<harvestWork>1200</harvestWork>
+			<harvestYield>60</harvestYield>
+			<visualSizeRange>
+				<min>2.5</min>
+				<max>3.5</max>
+			</visualSizeRange>
+		</plant>
+	</ThingDef>	
+	
+	<ThingDef ParentName="BT_TreeBase">
+		<defName>BT_TreeWillow</defName>
+		<label>willow tree</label>
+		<description>A very willowy tree, used in wilow times to build willow.</description>
+		<graphicData>
+			<texPath>BT/Tree/TreeWeepingWillow</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<statBases>
+			<Beauty>15</Beauty>
+		</statBases>
+		<plant>
+			<sowTags>
+				<li>/Marsh</li>
+				<li>Clump</li>
+			</sowTags>
+			<growDays>32.5</growDays>
+			<harvestedThingDef>WoodLog_WeepingWillow</harvestedThingDef>
+			<harvestWork>1200</harvestWork>
+			<harvestYield>60</harvestYield>
+			<visualSizeRange>
+				<min>3.0</min>
+				<max>4.0</max>
+			</visualSizeRange>
+		</plant>
+	</ThingDef>
+	
+</Defs>
